@@ -34,16 +34,24 @@
   display: none;
 }
 .onhover {
-  transition: all 4s ease-in-out !important;
+  transition: all 0.4s ease-in-out !important;
 }
 .onhover:hover {
-  width: 60%;
+  width: 70%;
 }
 .height {
   height: 500px;
 }
 .onhover:hover .icon {
   display: block;
+}
+.border-radius-start {
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+.border-radius-end {
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
 }
 /* media query css code start */
 @media only screen and (max-width: 767.98px) {
