@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -5,6 +6,9 @@
   text-decoration: none;
   box-sizing: border-box;
   scroll-behavior: smooth;
+}
+body {
+  font-family: "Inter";
 }
 /* nav section css code */
 .h_5 {
